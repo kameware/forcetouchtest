@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8900952E1BB7164E0065C94F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8900952D1BB7164E0065C94F /* QuartzCore.framework */; };
+		89F710F11BB6E7B400DFE811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F710F01BB6E7B400DFE811 /* main.m */; };
+		89F710F41BB6E7B400DFE811 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F710F31BB6E7B400DFE811 /* AppDelegate.m */; };
+		89F710F71BB6E7B400DFE811 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89F710F61BB6E7B400DFE811 /* ViewController.m */; };
+		89F710FA1BB6E7B400DFE811 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F710F81BB6E7B400DFE811 /* Main.storyboard */; };
+		89F710FC1BB6E7B400DFE811 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F710FB1BB6E7B400DFE811 /* Assets.xcassets */; };
+		89F710FF1BB6E7B400DFE811 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F710FD1BB6E7B400DFE811 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8900952D1BB7164E0065C94F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89F710EC1BB6E7B400DFE811 /* ForcetouchTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForcetouchTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F710F01BB6E7B400DFE811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89F710F21BB6E7B400DFE811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89F710F31BB6E7B400DFE811 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89F710F51BB6E7B400DFE811 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89F710F61BB6E7B400DFE811 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89F710F91BB6E7B400DFE811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89F710FB1BB6E7B400DFE811 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89F710FE1BB6E7B400DFE811 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89F711001BB6E7B400DFE811 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89F710E91BB6E7B400DFE811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8900952E1BB7164E0065C94F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89F710E31BB6E7B400DFE811 = {
+			isa = PBXGroup;
+			children = (
+				8900952D1BB7164E0065C94F /* QuartzCore.framework */,
+				89F710EE1BB6E7B400DFE811 /* ForcetouchTest */,
+				89F710ED1BB6E7B400DFE811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89F710ED1BB6E7B400DFE811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89F710EC1BB6E7B400DFE811 /* ForcetouchTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89F710EE1BB6E7B400DFE811 /* ForcetouchTest */ = {
+			isa = PBXGroup;
+			children = (
+				89F710F21BB6E7B400DFE811 /* AppDelegate.h */,
+				89F710F31BB6E7B400DFE811 /* AppDelegate.m */,
+				89F710F51BB6E7B400DFE811 /* ViewController.h */,
+				89F710F61BB6E7B400DFE811 /* ViewController.m */,
+				89F710F81BB6E7B400DFE811 /* Main.storyboard */,
+				89F710FB1BB6E7B400DFE811 /* Assets.xcassets */,
+				89F710FD1BB6E7B400DFE811 /* LaunchScreen.storyboard */,
+				89F711001BB6E7B400DFE811 /* Info.plist */,
+				89F710EF1BB6E7B400DFE811 /* Supporting Files */,
+			);
+			path = ForcetouchTest;
+			sourceTree = "<group>";
+		};
+		89F710EF1BB6E7B400DFE811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89F710F01BB6E7B400DFE811 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89F710EB1BB6E7B400DFE811 /* ForcetouchTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F711031BB6E7B400DFE811 /* Build configuration list for PBXNativeTarget "ForcetouchTest" */;
+			buildPhases = (
+				89F710E81BB6E7B400DFE811 /* Sources */,
+				89F710E91BB6E7B400DFE811 /* Frameworks */,
+				89F710EA1BB6E7B400DFE811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForcetouchTest;
+			productName = ForcetouchTest;
+			productReference = 89F710EC1BB6E7B400DFE811 /* ForcetouchTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89F710E41BB6E7B400DFE811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Mineharu;
+				TargetAttributes = {
+					89F710EB1BB6E7B400DFE811 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 7VFT3ME42N;
+					};
+				};
+			};
+			buildConfigurationList = 89F710E71BB6E7B400DFE811 /* Build configuration list for PBXProject "ForcetouchTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89F710E31BB6E7B400DFE811;
+			productRefGroup = 89F710ED1BB6E7B400DFE811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89F710EB1BB6E7B400DFE811 /* ForcetouchTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89F710EA1BB6E7B400DFE811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F710FF1BB6E7B400DFE811 /* LaunchScreen.storyboard in Resources */,
+				89F710FC1BB6E7B400DFE811 /* Assets.xcassets in Resources */,
+				89F710FA1BB6E7B400DFE811 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89F710E81BB6E7B400DFE811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F710F71BB6E7B400DFE811 /* ViewController.m in Sources */,
+				89F710F41BB6E7B400DFE811 /* AppDelegate.m in Sources */,
+				89F710F11BB6E7B400DFE811 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89F710F81BB6E7B400DFE811 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F710F91BB6E7B400DFE811 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89F710FD1BB6E7B400DFE811 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89F710FE1BB6E7B400DFE811 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89F711011BB6E7B400DFE811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89F711021BB6E7B400DFE811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89F711041BB6E7B400DFE811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ForcetouchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mine.ForcetouchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89F711051BB6E7B400DFE811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ForcetouchTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.mine.ForcetouchTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89F710E71BB6E7B400DFE811 /* Build configuration list for PBXProject "ForcetouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F711011BB6E7B400DFE811 /* Debug */,
+				89F711021BB6E7B400DFE811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F711031BB6E7B400DFE811 /* Build configuration list for PBXNativeTarget "ForcetouchTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89F711041BB6E7B400DFE811 /* Debug */,
+				89F711051BB6E7B400DFE811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89F710E41BB6E7B400DFE811 /* Project object */;
+}
